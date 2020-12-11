@@ -15,7 +15,7 @@
         "<node_internals>/**",
         "<node_modules>/**"
       ],
-      "localRoot": "/home/khanhdq/work/orders/dist",
+      "localRoot": "/home/khanhdq/work/minimal-node-debug/dist",
       "remoteRoot": "/dist"
     }
   ]

@@ -9,7 +9,7 @@ export class AppController {
   }
 
   @Get()
-  getHello() {
-    return this.appService.getHello();
+  async getHello() {
+    return await this.appService.getHello();
   }
 }
