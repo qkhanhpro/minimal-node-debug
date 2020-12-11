@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Debug: service",
+      "sourceMaps": true,
+      "smartStep": true,
+      "protocol": "inspector",
+      "port": 9229,
+      "restart": true,
+      "address": "localhost",
+      "skipFiles": [
+        "<node_internals>/**",
+        "<node_modules>/**"
+      ],
+      "localRoot": "/home/khanhdq/work/orders/dist",
+      "remoteRoot": "/dist"
+    }
+  ]
+}
